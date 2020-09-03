@@ -2,7 +2,7 @@
 body {
   color: #444;
   font-size: 16px;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Gentium Book Basic', sans-serif;
 }
 p {
   margin-bottom: .67em;
@@ -13,15 +13,19 @@ nav, footer {
 footer {
   text-align: center;
   padding: 1em 0 .3em 0;
-  color: #D0D0D0;
+  color: #FFFEFE;
+  background-color: #CC5858;
 }
 /*-- Main Menu Styles--*/
 nav ul {
-  list-style: none;
+  background-color: #CC5858;
   padding: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 nav a:link, nav a:visited {
-  color: #D0D0D0;
+  color: #FFFEFE;
   text-decoration: none;
 }
 nav a:hover, nav a:active  {
@@ -34,8 +38,7 @@ nav a.active {
 /*-- Hero Unit Styles--*/
 header {
   width: 510px;
-  margin-top: 2em;
-  margin-bottom: 2em;
+  margin: 2em auto 2em;
 }
 header img {
   width: 100%;
@@ -44,26 +47,41 @@ header img {
 header h1 {
   margin: 0 auto;
   padding: 0 auto;
+  text-align: center;
+
 }
 .small {
   margin-top: 1em;
+  font-size: 20px;
+  font-weight: 900;
+  font: 'Lato', sans-serif;
+  text-transform: uppercase;
 }
 /*-- Article Styles--*/
 article {
   width: 768px;
   font-size: 18px;
   line-height: 1.3;
+  margin: 0 auto;
 }
 article figure {
   width: 39%;
   margin: 0 0 1.25em 1.25em;
+  float: right;
 }
 article figcaption {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: 'Georgia', sans-serif;
 }
 .pagination {
   margin-top: 2em;
   margin-bottom: 2em;
   width: 96%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
 }
 a.button {
   border: 1px solid #888;
