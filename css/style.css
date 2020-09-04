@@ -52,10 +52,22 @@ header h1 {
 }
 .small {
   margin-top: 1em;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 900;
   font: 'Lato', sans-serif;
+  color: #756F6F;
   text-transform: uppercase;
+}
+.dropcap{
+    float: left;
+    font-size: 70px;
+    position: relative;
+    bottom: 10px;
+    line-height: 1;
+    margin-bottom: -20px;
+}
+.bigger{
+    font-size: 25px;
 }
 /*-- Article Styles--*/
 article {
